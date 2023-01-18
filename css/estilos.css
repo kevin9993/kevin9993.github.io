@@ -2,3 +2,26 @@
 body{
     background-color: aquamarine;
 }
+div{
+    background-color: beige;
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+fieldset{
+    margin-bottom: 15;
+}
+legend{
+    background-color: coral;
+    padding: 5px;
+    border-radius: 21;
+    font-weight: bold;
+
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-right: 40px;
+    float: left;
+}
