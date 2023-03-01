@@ -1,0 +1,140 @@
+body {
+    min-height: 100vh;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+    background-color: rgb(224, 224, 143);
+    border: 1px solid black;
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.container .inicio span {
+    font-size: 1em;
+    font-weight: 51;
+    color: #222;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.container .inicio span:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #222, 0 0 25px #222, 0 0 50px #222, 0 0 100px #222;
+}
+
+.subcontainer {
+    min-height: 100vh;
+    background-color: rgb(224, 224, 143);
+    border: 1px solid black;
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.subcontainer #btn1 {
+    font-size: 1rem;
+    display: inline-block;
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin: 10px;
+    background-color: #79dd74!important;
+    border-radius: 5px;    
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    
+    
+}
+
+.subcontainer #btn1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.subcontainer #btn2 {
+    font-size: 1rem;
+    display: inline-block;
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin: 10px;
+    background-color: #79dd74!important;
+    border-radius: 5px;    
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+
+}
+    
+
+.subcontainer #btn2:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.subcontainer #btn3 {
+    font-size: 1rem;
+    display: inline-block;
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin: 10px;
+    background-color: #79dd74!important;
+    border-radius: 5px;    
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    
+}
+
+.subcontainer #btn3:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.subcontainer #btn4 {
+    font-size: 1rem;
+    display: inline-block;
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin: 10px;
+    background-color: #79dd74!important;
+    border-radius: 5px;    
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    
+}
+
+.subcontainer #btn4:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.subcontainer #info {
+    display: none;
+
+}
+
+
+.subcontainer #forma {
+    display: none;
+}
+
+.subcontainer #exper {
+    display: none;
+
+}
+
+.subcontainer #otros {
+    display: none;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-right: 20px;
+    float: left;
+}
